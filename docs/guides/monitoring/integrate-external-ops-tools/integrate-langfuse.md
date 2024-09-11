@@ -14,7 +14,7 @@ Langfuse 官网介绍：[https://langfuse.com/](https://langfuse.com/)
 ### 2 如何配置 Langfuse
 
 1. 在[官网注册](https://langfuse.com/)并登录 Langfuse
-2. 在 Langfuse 内创建项目，登录后在主页点击 **New** ，创建一个自己的项目，**项目**将用于与 Dify 内的**应用**关联进行数据监测。
+2. 在 Langfuse 内创建项目，登录后在主页点击 **New** ，创建一个自己的项目，**项目**将用于与 TGAI 内的**应用**关联进行数据监测。
 
 <figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption><p>在 Langfuse 内创建项目</p></figcaption></figure>
 
@@ -34,7 +34,7 @@ Langfuse 官网介绍：[https://langfuse.com/](https://langfuse.com/)
 
 <figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption><p>获取 API Key 配置</p></figcaption></figure>
 
-4. 在 Dify 内配置 Langfuse，打开需要监测的应用，在侧边菜单打开**监测**，在页面中选择**配置。**
+4. 在 TGAI 内配置 Langfuse，打开需要监测的应用，在侧边菜单打开**监测**，在页面中选择**配置。**
 
 <figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption><p>配置 Langfuse</p></figcaption></figure>
 
@@ -50,9 +50,9 @@ Langfuse 官网介绍：[https://langfuse.com/](https://langfuse.com/)
 
 ### 3 在 Langfuse 内查看监测数据
 
-配置完成后， Dify 内应用的调试或生产数据可以在 Langfuse 查看监测数据。
+配置完成后， TGAI 内应用的调试或生产数据可以在 Langfuse 查看监测数据。
 
-<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>在 Dify 内调试应用</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>在 TGAI 内调试应用</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption><p>在 Langfuse 内查看应用数据</p></figcaption></figure>
 

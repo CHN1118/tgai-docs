@@ -23,8 +23,8 @@
 **配置流程：**
 
 1. 选择查询变量，用于作为输入来检索知识库中的相关文本分段，在常见的对话类应用中一般将开始节点的 `sys.query` 作为查询变量；
-2. 选择需要查询的知识库，可选知识库需要在 Dify 知识库内预先[创建](../../knowledge-base/create-knowledge-and-upload-documents/#id-1-chuang-jian-zhi-shi-ku)；
-3. 指定[召回模式](../../../learn-more/extended-reading/retrieval-augment/retrieval.md)。自 9 月 1 日后，知识库的召回模式将自动切换为多路召回，不再建议使用 N 选 1 召回模式；
+2. 选择需要查询的知识库，可选知识库需要在 TGAI 知识库内预先[创建](../../knowledge-base/create-knowledge-and-upload-documents/#id-1-chuang-jian-zhi-shi-ku)；
+3. 指定[召回模式](../../../learn-more/extended-reading/retrieval-augment/retrieval)。自 9 月 1 日后，知识库的召回模式将自动切换为多路召回，不再建议使用 N 选 1 召回模式；
 4. 连接并配置下游节点，一般为 LLM 节点；
 
 > 建议将知识库的召回模式切换为多路召回，详细说明请参考[《在应用内集成知识库》](https://docs.dify.ai/v/zh-hans/guides/knowledge-base/integrate-knowledge-within-application)。
@@ -48,4 +48,4 @@
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>配置下游 LLM 节点</p></figcaption></figure>
 
-该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](../../knowledge-base/retrieval-test-and-citation.md#id-2-yin-yong-yu-gui-shu) 功能。
+该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](../../knowledge-base/retrieval-test-and-citation#id-2-yin-yong-yu-gui-shu) 功能。

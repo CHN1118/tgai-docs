@@ -1,6 +1,6 @@
-# 部署 Dify 到 Zeabur
+# 部署 TGAI 到 Zeabur
 
-[Zeabur](https://zeabur.com) 是一个服务部署平台，可以通过一键部署的方式部署 Dify。本指南将指导您如何将 Dify 部署到 Zeabur。
+[Zeabur](https://zeabur.com) 是一个服务部署平台，可以通过一键部署的方式部署 TGAI。本指南将指导您如何将 TGAI 部署到 Zeabur。
 
 ## 前置要求
 
@@ -9,7 +9,7 @@
 - 一个 Zeabur 账户。如果您没有账户，可以在 [Zeabur](https://zeabur.com/) 注册一个免费账户。
 - 升级您的 Zeabur 账户到开发者计划（每月 5 美元）。您可以从 [Zeabur 定价](https://zeabur.com/pricing) 了解更多信息。
 
-## 部署 Dify 到 Zeabur
+## 部署 TGAI 到 Zeabur
 
 Zeabur 团队准备了一个一键部署模板，您只需点击下面的按钮即可开始：
 
@@ -19,12 +19,12 @@ Zeabur 团队准备了一个一键部署模板，您只需点击下面的按钮�
 
 <figure><img src="../../.gitbook/assets/zeabur-template-overview.jpeg" alt="Zeabur Template Overview"><figcaption></figcaption></figure>
 
-点击部署按钮后，您需要输入一个生成的域名，以便将域名绑定到您的 Dify 实例并注入到其他服务中作为环境变量。
-然后选择您喜欢的区域，点击部署按钮，您的 Dify 实例将在几分钟内部署完成。
+点击部署按钮后，您需要输入一个生成的域名，以便将域名绑定到您的 TGAI 实例并注入到其他服务中作为环境变量。
+然后选择您喜欢的区域，点击部署按钮，您的 TGAI 实例将在几分钟内部署完成。
 
 <figure><img src="../../.gitbook/assets/zeabur-region-select.png" alt="Select Region"><figcaption></figcaption></figure>
 
-部署完成后，您可以在 Zeabur 控制台中看到一个项目页面，如下图所示，您在部署过程中输入的域名将自动绑定到 NGINX 服务，您可以通过该域名访问您的 Dify 实例。
+部署完成后，您可以在 Zeabur 控制台中看到一个项目页面，如下图所示，您在部署过程中输入的域名将自动绑定到 NGINX 服务，您可以通过该域名访问您的 TGAI 实例。
 
 <figure><img src="../../.gitbook/assets/zeabur-project.png" alt="Zeabur Project Overview"><figcaption></figcaption></figure>
 

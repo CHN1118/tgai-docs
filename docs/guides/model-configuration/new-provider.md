@@ -16,7 +16,7 @@
 
 与 `predefined-model`配置方式一致，只需要配置统一的供应商凭据即可，模型通过凭据信息从供应商获取。
 
-如OpenAI，我们可以基于 gpt-turbo-3.5 来 Fine Tune 多个模型，而他们都位于同一个 **api\_key** 下，当配置为`fetch-from-remote`时，开发者只需要配置统一的 **api\_key** 即可让 Dify Runtime 获取到开发者所有的微调模型并接入 Dify。
+如OpenAI，我们可以基于 gpt-turbo-3.5 来 Fine Tune 多个模型，而他们都位于同一个 **api\_key** 下，当配置为`fetch-from-remote`时，开发者只需要配置统一的 **api\_key** 即可让 TGAI Runtime 获取到开发者所有的微调模型并接入 TGAI。
 
 这三种配置方式**支持共存**，即存在供应商支持`predefined-model` + `customizable-model` 或 `predefined-model` + `fetch-from-remote`等，也就是配置了供应商统一凭据可以使用预定义模型和从远程获取的模型，若新增了模型，则可以在此基础上额外使用自定义的模型。
 
@@ -30,11 +30,11 @@
 
 新增一个供应商主要分为几步，这里简单列出，帮助大家有一个大概的认识，具体的步骤会在下面详细介绍。
 
-* 创建供应商 yaml 文件，根据 [Provider Schema](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema.md) 编写。
+* 创建供应商 yaml 文件，根据 [Provider Schema](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema) 编写。
 * 创建供应商代码，实现一个`class`。
 * 根据模型类型，在供应商`module`下创建对应的模型类型 `module`，如`llm`或`text_embedding`。
 * 根据模型类型，在对应的模型`module`下创建同名的代码文件，如`llm.py`，并实现一个`class`。
-* 如果有预定义模型，根据模型名称创建同名的yaml文件在模型`module`下，如`claude-2.1.yaml`，根据 [AI Model Entity](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema.md#aimodelentity) 编写。
+* 如果有预定义模型，根据模型名称创建同名的yaml文件在模型`module`下，如`claude-2.1.yaml`，根据 [AI Model Entity](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema#aimodelentity) 编写。
 * 编写测试代码，确保功能可用。
 
 #### 开始吧
@@ -79,7 +79,7 @@ provider_credential_schema:  # 供应商凭据规则，由于 Anthropic 仅支�
       en_US: Enter your API URL
 ```
 
-如果接入的供应商提供自定义模型，比如`OpenAI`提供微调模型，那么我们就需要添加[`model_credential_schema`](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema.md)，以`OpenAI`为例：
+如果接入的供应商提供自定义模型，比如`OpenAI`提供微调模型，那么我们就需要添加[`model_credential_schema`](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema)，以`OpenAI`为例：
 
 ```yaml
 model_credential_schema:
@@ -119,7 +119,7 @@ model_credential_schema:
       en_US: Enter your API Base
 ```
 
-也可以参考`model_providers`目录下其他供应商目录下的 [YAML 配置信息](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema.md)。
+也可以参考`model_providers`目录下其他供应商目录下的 [YAML 配置信息](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/schema)。
 
 **实现供应商代码**
 

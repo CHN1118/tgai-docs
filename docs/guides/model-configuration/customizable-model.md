@@ -274,7 +274,7 @@ provider_credential_schema:
     ```
 *   调用异常错误映射表
 
-    当模型调用异常时需要映射到 Runtime 指定的 `InvokeError` 类型，方便 Dify 针对不同错误做不同后续处理。
+    当模型调用异常时需要映射到 Runtime 指定的 `InvokeError` 类型，方便 TGAI 针对不同错误做不同后续处理。
 
     Runtime Errors:
 
@@ -297,4 +297,4 @@ provider_credential_schema:
         """
     ```
 
-接口方法说明见：[Interfaces](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/interfaces.md)，具体实现可参考：[llm.py](https://github.com/langgenius/dify-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py)。
+接口方法说明见：[Interfaces](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/docs/zh\_Hans/interfaces)，具体实现可参考：[llm.py](https://github.com/langgenius/dify-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py)。

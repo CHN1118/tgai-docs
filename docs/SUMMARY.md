@@ -2,7 +2,7 @@
 
 ## 入门 <a href="#getting-started" id="getting-started"></a>
 
-* [欢迎使用 Dify](README.md)
+* [欢迎使用 TGAI](README.md)
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
   * [模型供应商列表](getting-started/readme/model-providers.md)
 * [云服务](getting-started/cloud.md)
@@ -12,7 +12,7 @@
   * [单独启动前端 Docker 容器](getting-started/install-self-hosted/start-the-frontend-docker-container.md)
   * [环境变量说明](getting-started/install-self-hosted/environments.md)
   * [常见问题](getting-started/install-self-hosted/faq.md)
-* [Dify Premium](getting-started/dify-premium.md)
+* [TGAI Premium](getting-started/dify-premium.md)
 
 ## 手册 <a href="#guides" id="guides"></a>
 
@@ -118,12 +118,12 @@
 
 * [寻求支持](community/support.md)
 * [成为贡献者](community/contribution.md)
-* [为 Dify 文档做出贡献](community/docs-contribution.md)
+* [为 TGAI 文档做出贡献](community/docs-contribution.md)
 
 ## 研发 <a href="#development" id="development"></a>
 
 * [后端](development/backend/README.md)
-  * [DifySandbox](development/backend/sandbox/README.md)
+  * [TGAISandbox](development/backend/sandbox/README.md)
     * [贡献指南](development/backend/sandbox/contribution.md)
 
 ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
@@ -133,11 +133,11 @@
   * [教你十几分钟不用代码创建 Midjourney 提示词机器人](learn-more/use-cases/create-a-midjoureny-prompt-word-robot-with-zero-code.md)
   * [构建一个 Notion AI 助手](learn-more/use-cases/build-an-notion-ai-assistant.md)
   * [如何在几分钟内创建一个带有业务数据的官网 AI 智能客服](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
-  * [使用全套开源工具构建 LLM 应用实战：在 Dify 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
-  * [手摸手教你把 Dify 接入微信生态](learn-more/use-cases/dify-on-wechat.md)
-  * [使用Dify 和Twilio构建WhatsApp机器人](learn-more/use-cases/dify-on-whatsapp.md)
+  * [使用全套开源工具构建 LLM 应用实战：在 TGAI 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
+  * [手摸手教你把 TGAI 接入微信生态](learn-more/use-cases/dify-on-wechat.md)
+  * [使用TGAI 和Twilio构建WhatsApp机器人](learn-more/use-cases/dify-on-whatsapp.md)
   * [如何让 LLM 应用提供循序渐进的聊天体验？](learn-more/use-cases/how-to-make-llm-app-provide-a-progressive-chat-experience.md)
-  * [如何将 Dify Chatbot 集成至 Wix 网站？](learn-more/use-cases/how-to-integrate-dify-chatbot-to-your-wix-website.md)
+  * [如何将 TGAI Chatbot 集成至 Wix 网站？](learn-more/use-cases/how-to-integrate-dify-chatbot-to-your-wix-website.md)
 * [扩展阅读](learn-more/extended-reading/README.md)
   * [什么是 LLMOps？](learn-more/extended-reading/what-is-llmops.md)
   * [检索增强生成（RAG）](learn-more/extended-reading/retrieval-augment/README.md)

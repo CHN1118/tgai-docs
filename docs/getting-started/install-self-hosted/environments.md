@@ -12,7 +12,7 @@
 
 #### SERVICE\_API\_URL
 
-Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.dify.ai`
+Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.tgai.ai`
 
 #### APP\_API\_URL
 
@@ -337,7 +337,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     *   dify
 
-        Dify 自研文件 Extract 方案
+        TGAI 自研文件 Extract 方案
     *   Unstructured
 
         Unstructured.io 文件 Extract 方案
@@ -465,7 +465,7 @@ Sentry DSN 地址，默认为空，为空时则所有监控信息均不上报 Se
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为 `SERVICE_API_URL`。
 
-API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.dify.ai`
+API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.tgai.ai`
 
 #### APP\_URL
 

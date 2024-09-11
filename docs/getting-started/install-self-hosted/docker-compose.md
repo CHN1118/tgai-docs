@@ -2,7 +2,7 @@
 
 ### 前提条件
 
-> 安装 Dify 之前, 请确保你的机器已满足最低安装要求：
+> 安装 TGAI 之前, 请确保你的机器已满足最低安装要求：
 > - CPU >= 2 Core
 > - RAM >= 4GB
 
@@ -12,17 +12,17 @@
 | Linux platforms            | <p>Docker 19.03 or later<br>Docker Compose 1.25.1 or later</p> | 请参阅[安装 Docker](https://docs.docker.com/engine/install/) 和[安装 Docker Compose](https://docs.docker.com/compose/install/) 以获取更多信息。                                                      |
 | Windows with WSL 2 enabled | <p>Docker Desktop<br></p>                                      | 我们建议将源代码和其他数据绑定到 Linux 容器中时，将其存储在 Linux 文件系统中，而不是 Windows 文件系统中。有关更多信息，请参阅[使用 WSL 2 后端在 Windows 上安装 Docker Desktop](https://docs.docker.com/desktop/windows/install/#wsl-2-backend)。 |
 
-### 克隆 Dify 代码仓库
+### 克隆 TGAI 代码仓库
 
-克隆 Dify 源代码至本地环境。
+克隆 TGAI 源代码至本地环境。
 
 ```bash
 git clone https://github.com/langgenius/dify.git
 ```
 
-### 启动 Dify
+### 启动 TGAI
 
-1. 进入 Dify 源代码的 Docker 目录
+1. 进入 TGAI 源代码的 Docker 目录
 
    ```bash
    cd dify/docker
@@ -88,9 +88,9 @@ docker-web-1          langgenius/dify-web:0.6.13         "/bin/sh ./entrypoin…
 docker-worker-1       langgenius/dify-api:0.6.13         "/bin/bash /entrypoi…"   worker       About a minute ago   Up About a minute             5001/tcp
 ```
 
-通过这些步骤，你应该可以成功在本地安装 Dify。
+通过这些步骤，你应该可以成功在本地安装 TGAI。
 
-### 更新 Dify
+### 更新 TGAI
 
 进入 dify 源代码的 docker 目录，按顺序执行以下命令：
 
@@ -107,13 +107,13 @@ docker compose up -d
 * 如果 `.env.example` 文件有更新，请务必同步修改您本地的 `.env` 文件。
 * 检查 `.env` 文件中的所有配置项，确保它们与您的实际运行环境相匹配。您可能需要将 `.env.example` 中的新变量添加到 `.env` 文件中，并更新已更改的任何值。
 
-### 访问 Dify
+### 访问 TGAI
 
-在浏览器中输入 `http://localhost` 访问 Dify。
+在浏览器中输入 `http://localhost` 访问 TGAI。
 
 ### 自定义配置
 
-编辑 `.env` 文件中的环境变量值。然后，重新启动 Dify：
+编辑 `.env` 文件中的环境变量值。然后，重新启动 TGAI：
 
 ```bash
 docker compose down

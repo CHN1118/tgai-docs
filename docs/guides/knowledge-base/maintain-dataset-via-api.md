@@ -4,14 +4,14 @@
 
 ### 使用数据集API的优势
 
-* 将您的数据系统同步至 Dify 数据集，创建强大的工作流程。
+* 将您的数据系统同步至 TGAI 数据集，创建强大的工作流程。
 * 提供数据集列表，文档列表及详情查询，方便构建您自己的数据管理页。
 * 同时支持纯文本和文件两种上传和更新文档的接口，并支持分段级的批量新增和修改，便捷您的同步方式。
-* 减少文档手动处理同步的时间,提高您对 Dify 的软件和服务的可见性。
+* 减少文档手动处理同步的时间,提高您对 TGAI 的软件和服务的可见性。
 
 ### 如何使用
 
-进入数据集页面，你可以在左侧的导航中切换至 **API** 页面。在该页面中你可以查看 Dify 提供的数据集 API 文档，并可以在 **API 密钥** 中管理可访问数据集 API 的凭据。
+进入数据集页面，你可以在左侧的导航中切换至 **API** 页面。在该页面中你可以查看 TGAI 提供的数据集 API 文档，并可以在 **API 密钥** 中管理可访问数据集 API 的凭据。
 
 <figure><img src="../../.gitbook/assets/dataset-api-token.png" alt=""><figcaption><p>Knowledge API Document</p></figcaption></figure>
 
@@ -24,7 +24,7 @@
 
 
 ```
-curl --location --request POST 'https://api.dify.ai/v1/datasets' \
+curl --location --request POST 'https://api.tgai.ai/v1/datasets' \
 --header 'Authorization: Bearer {api_key}' \
 --header 'Content-Type: application/json' \
 --data-raw '{"name": "name"}'
@@ -34,7 +34,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets' \
 #### **数据集列表**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets?page=1&limit=20' \
+curl --location --request GET 'https://api.tgai.ai/v1/datasets?page=1&limit=20' \
 --header 'Authorization: Bearer {api_key}'
 
 ```
@@ -42,12 +42,12 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets?page=1&limit=20' 
 #### **通过文本创建文档**
 
 ```
-curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:dataset_id>/document/create_by_text>' \\
+curl --location --request POST '<https://api.tgai.ai/v1/datasets/<uuid:dataset_id>/document/create_by_text>' \\
 --header 'Authorization: Bearer {api_key}' \\
 --header 'Content-Type: application/json' \\
 --data-raw '{
-    "name": "Dify",
-    "text": "Dify means Do it for you...",
+    "name": "TGAI",
+    "text": "TGAI means Do it for you...",
     "indexing_technique": "high_quality",
     "process_rule": {
         "rules": {
@@ -72,10 +72,10 @@ curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:dataset_i
 #### **通过文件创建文档**
 
 ```
-curl --location POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create_by_file' \
+curl --location POST 'https://api.tgai.ai/v1/datasets/{dataset_id}/document/create_by_file' \
 --header 'Authorization: Bearer {api_key}' \
 --form 'data="{
-	"name": "Dify",
+	"name": "TGAI",
 	"indexing_technique": "high_quality",
 	"process_rule": {
 		"rules": {
@@ -102,21 +102,21 @@ curl --location POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/crea
 #### **获取文档嵌入状态（进度）**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{batch}/indexing-status' \
+curl --location --request GET 'https://api.tgai.ai/v1/datasets/{dataset_id}/documents/{batch}/indexing-status' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **删除文档**
 
 ```
-curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{document_id}' \
+curl --location --request DELETE 'https://api.tgai.ai/v1/datasets/{dataset_id}/documents/{document_id}' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **数据集文档列表**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/documents' \
+curl --location --request GET 'https://api.tgai.ai/v1/datasets/{dataset_id}/documents' \
 --header 'Authorization: Bearer {api_key}'
 
 ```
@@ -124,12 +124,12 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/docu
 #### **新增分段**
 
 ```
-curl 'https://api.dify.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
+curl 'https://api.tgai.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
   --header 'Authorization: Bearer {api_key}' \
   --header 'Content-Type: application/json' \
   --data-raw $'"chunks":[
-  {"content":"Dify means Do it for you",
-  "keywords":["Dify","Do"]
+  {"content":"TGAI means Do it for you",
+  "keywords":["TGAI","Do"]
   }
   ]'
   --compressed

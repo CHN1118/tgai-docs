@@ -1,6 +1,6 @@
 # 从网页导入数据
 
-Dify 知识库通过集成 Firecrawl ，支持网页抓取并解析为 Markdown 导入至知识库。
+TGAI 知识库通过集成 Firecrawl ，支持网页抓取并解析为 Markdown 导入至知识库。
 
 ::: tip
 

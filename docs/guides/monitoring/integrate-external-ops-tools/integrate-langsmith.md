@@ -13,13 +13,13 @@ LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langc
 
 ### 如何配置 LangSmith
 
-本章节将指引你注册 LangSmith 并将其集成至 Dify 平台内。
+本章节将指引你注册 LangSmith 并将其集成至 TGAI 平台内。
 
 #### 1. 注册/登录 [LangSmith](https://www.langchain.com/langsmith)
 
 #### 2. 创建项目
 
-在 LangSmith 内创建项目，登录后在主页点击 **New Project** 创建一个自己的项目，**项目**将用于与 Dify 内的**应用**关联进行数据监测。
+在 LangSmith 内创建项目，登录后在主页点击 **New Project** 创建一个自己的项目，**项目**将用于与 TGAI 内的**应用**关联进行数据监测。
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>在 LangSmith 内创建项目</p></figcaption></figure>
 
@@ -45,9 +45,9 @@ LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langc
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>复制 API Key</p></figcaption></figure>
 
-#### 4. 将 LangSmith 集成至 Dify 平台
+#### 4. 将 LangSmith 集成至 TGAI 平台
 
-在 Dify 应用内配置 LangSmith。打开需要监测的应用，在左侧边菜单内打开**监测**，点击页面内的**配置。**
+在 TGAI 应用内配置 LangSmith。打开需要监测的应用，在左侧边菜单内打开**监测**，点击页面内的**配置。**
 
 <figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>配置 LangSmith</p></figcaption></figure>
 
@@ -66,9 +66,9 @@ LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langc
 
 ### 在 LangSmith 内查看监测数据
 
-配置完成后， Dify 内应用的调试或生产数据可以在 LangSmith 查看监测数据。
+配置完成后， TGAI 内应用的调试或生产数据可以在 LangSmith 查看监测数据。
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>在 Dify 内调试应用</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>在 TGAI 内调试应用</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>在 LangSmith 内查看应用数据</p></figcaption></figure>
 

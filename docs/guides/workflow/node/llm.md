@@ -30,14 +30,14 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 **配置步骤：**
 
-1. **选择模型**，Dify 提供了全球主流模型的[支持](../../../getting-started/readme/model-providers.md)，包括 OpenAI 的 GPT 系列、Anthropic 的 Claude 系列、Google 的 Gemini 系列等，选择一个模型取决于其推理能力、成本、响应速度、上下文窗口等因素，你需要根据场景需求和任务类型选择合适的模型。
+1. **选择模型**，TGAI 提供了全球主流模型的[支持](../../../getting-started/readme/model-providers)，包括 OpenAI 的 GPT 系列、Anthropic 的 Claude 系列、Google 的 Gemini 系列等，选择一个模型取决于其推理能力、成本、响应速度、上下文窗口等因素，你需要根据场景需求和任务类型选择合适的模型。
 2. **配置模型参数**，模型参数用于控制模型的生成结果，例如温度、TopP，最大标记、回复格式等，为了方便选择系统同时提供了 3 套预设参数：创意，平衡和精确。
 3. **编写提示词**，LLM 节点提供了一个易用的提示词编排页面，选择聊天模型或补全模型，会显示不同的提示词编排结构。
 4. **高级设置**，可以开关记忆，设置记忆窗口，使用 Jinja-2 模版语言来进行更复杂的提示词等。
 
 ::: tip
 
-如果你是初次使用 Dify ，在 LLM 节点选择模型之前，需要在 **系统设置—模型供应商** 内提前完成[模型配置](../../model-configuration/)。
+如果你是初次使用 TGAI ，在 LLM 节点选择模型之前，需要在 **系统设置—模型供应商** 内提前完成[模型配置](../../model-configuration/)。
 :::
 
 #### **编写提示词**
@@ -68,7 +68,7 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 在常见的知识库问答应用中，知识库检索的下游节点一般为 LLM 节点，知识检索的 **输出变量** `result` 需要配置在 LLM 节点中的 **上下文变量** 内关联赋值。关联后在提示词的合适位置插入 **上下文变量** ，可以将外部检索到的知识插入到提示词中。
 
-该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识引入，由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](../../knowledge-base/retrieval-test-and-citation.md#id-2-yin-yong-yu-gui-shu) 功能。
+该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识引入，由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](../../knowledge-base/retrieval-test-and-citation#id-2-yin-yong-yu-gui-shu) 功能。
 
 ::: tip
 
@@ -77,7 +77,7 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 **会话历史**
 
-为了在文本补全类模型（例如 gpt-3.5-turbo-Instruct）内实现聊天型应用的对话记忆，Dify 在原[提示词专家模式（已下线）](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/)内设计了会话历史变量，该变量沿用至 Chatflow 的 LLM 节点内，用于在提示词中插入 AI 与用户之间的聊天历史，帮助 LLM 理解对话上文。
+为了在文本补全类模型（例如 gpt-3.5-turbo-Instruct）内实现聊天型应用的对话记忆，TGAI 在原[提示词专家模式（已下线）](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/)内设计了会话历史变量，该变量沿用至 Chatflow 的 LLM 节点内，用于在提示词中插入 AI 与用户之间的聊天历史，帮助 LLM 理解对话上文。
 
 ::: tip
 

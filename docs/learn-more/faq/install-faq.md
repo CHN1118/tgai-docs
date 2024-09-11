@@ -61,7 +61,7 @@ FileNotFoundError: File not found
 `APP_API_URL:` WebApp API 的后端 URL。
 `APP_WEB_URL:` WebApp 的 URL。
 
-更多信息，请查看：[环境变量](../../getting-started/install-self-hosted/environments.md)
+更多信息，请查看：[环境变量](../../getting-started/install-self-hosted/environments)
 
 ### 5. 部署后如何升级版本？
 
@@ -92,9 +92,9 @@ FileNotFoundError: File not found
 
 需要备份数据库、配置的存储以及向量数据库数据，若为 docker compose 方式部署，可直接备份 `dify/docker/volumes` 目录下所有数据内容。
 
-### 10. 为什么 Docker 部署 Dify，本地启动 OpenLLM 用 127.0.0.1 却无法访问本地的端口？
+### 10. 为什么 Docker 部署 TGAI，本地启动 OpenLLM 用 127.0.0.1 却无法访问本地的端口？
 
-127.0.0.1 是容器内部地址， Dify 配置的服务器地址需要宿主机局域网 IP 地址。
+127.0.0.1 是容器内部地址， TGAI 配置的服务器地址需要宿主机局域网 IP 地址。
 
 ### 11. 本地部署版如何解决数据集文档上传的大小限制和数量限制。
 
@@ -210,7 +210,7 @@ http_access deny all
 
 ### 19. 如何将自己创建的应用设置为模板？
 
-目前还不支持将你自己创建的应用设置为模板。现有的模板是由Dify官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@dify.ai](mailto:business@dify.ai)
+目前还不支持将你自己创建的应用设置为模板。现有的模板是由TGAI官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@dify.ai](mailto:business@dify.ai)
 
 ### 20.502 Bad Gateway
 

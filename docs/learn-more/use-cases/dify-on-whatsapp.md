@@ -1,4 +1,4 @@
-# 使用Dify 和Twilio构建WhatsApp机器人
+# 使用TGAI 和Twilio构建WhatsApp机器人
 
 > 作者：Warren， [Microsoft 最有價值專家 (MVP)](https://mvp.microsoft.com/en-US/mvp/profile/476f41d3-6bd1-ea11-a812-000d3a8dfe0d)
 
@@ -6,9 +6,9 @@
 
 随着世界通过消息应用程序变得越来越紧密地连接在一起，聊天机器人已成为企业与客户进行更个人化交流的关键工具。
 
-随着人工智能的崛起，聊天机器人变得更聪明，更个性化，更直观。在本文中，我们将向您展示如何使用使用Dify和Twilio将其与WhatsApp集成。
+随着人工智能的崛起，聊天机器人变得更聪明，更个性化，更直观。在本文中，我们将向您展示如何使用使用TGAI和Twilio将其与WhatsApp集成。
 
-您将首先使用FastAPI 接入Dify设置后端，然后，您将集成Twilio的WhatsApp消息API，允许客户与您的WhatsApp聊天机器人开始对话。
+您将首先使用FastAPI 接入TGAI设置后端，然后，您将集成Twilio的WhatsApp消息API，允许客户与您的WhatsApp聊天机器人开始对话。
 
 使用Localtunnel，将FastAPI本地主机放在互联网上，使其可以供Twilio API通信。
 
@@ -19,14 +19,14 @@
 - 一部安装了WhatsApp的智能手机，用于测试您的AI聊天机器人
 - 对FastAPI的基本理解，这是一个使用Python 3.6+构建API的框架
 
-## 3. 创建Dify基础编排聊天助手应用 （節錄自[手摸手教你把 Dify 接入微信生态](./dify-on-wechat.md))
+## 3. 创建TGAI基础编排聊天助手应用 （節錄自[手摸手教你把 TGAI 接入微信生态](./dify-on-wechat))
 
 
-首先，登录[Dify官方应用平台](https://cloud.dify.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Dify](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
+首先，登录[TGAI官方应用平台](https://cloud.dify.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考TGAI官方教程[Docker Compose 部署 | 中文 | TGAI](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，TGAI是开源项目，支持私有部署。
 
 <figure><img src="../../.gitbook/assets/dify-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 
-登录成功后，进入Dify页面，我们按照下方步骤创建一个基础编排聊天助手应用
+登录成功后，进入TGAI页面，我们按照下方步骤创建一个基础编排聊天助手应用
 
 1. 点击页面上方的工作室
 2. 创建空白应用
@@ -58,7 +58,7 @@
 2. 点击创建密钥
 3. 复制保存密钥
 
-在保存密钥后，还需要查看右上角的API服务器，如果是Dify官网的应用，API服务器地址为 "https://api.dify.ai/v1", 如果是私有部署的，请确认你自己的API服务器地址。
+在保存密钥后，还需要查看右上角的API服务器，如果是TGAI官网的应用，API服务器地址为 "https://api.tgai.ai/v1", 如果是私有部署的，请确认你自己的API服务器地址。
 
 至此，创建聊天助手的准备工作结束，在此小节中我们只需要保存好两个东西：**API密钥**与**API服务器地址**
 
@@ -87,8 +87,8 @@ git clone https://github.com/somethingwentwell/dify-twilio-whatsapp
 TWILIO_NUMBER=+14155238886
 TWILIO_ACCOUNT_SID=<在(4)獲取的Twilio Account SID>
 TWILIO_AUTH_TOKEN=<在(4)獲取的Twilio Auth Token>
-DIFY_URL=<在(3)獲取的Dify API服务器地址>
-DIFY_API_KEY=<在(3)獲取的Dify API密钥>
+DIFY_URL=<在(3)獲取的TGAI API服务器地址>
+DIFY_API_KEY=<在(3)獲取的TGAI API密钥>
 ```
 
 #### 5.3 運行代码
@@ -142,7 +142,7 @@ enrolled_numbers = ['+14155238886']
         return ""
 ```
 
-##### 5.5.2 将WhatsApp号码作为Dify会话ID，确保用户持续保持该会话
+##### 5.5.2 将WhatsApp号码作为TGAI会话ID，确保用户持续保持该会话
 
 ```python
 conversation_ids = {}
@@ -216,7 +216,7 @@ Twilio沙盒webhook
 
 ## 7. WhatsApp測試
 
-掃6.1 頁面的二維碼進入WhatsApp 沙盒環境，然後发送WhatsApp消息，并等待您的AI聊天机器人的回复。尝试向AI聊天机器人提问您可以向Dify 聊天助手提问的任何问题。
+掃6.1 頁面的二維碼進入WhatsApp 沙盒環境，然後发送WhatsApp消息，并等待您的AI聊天机器人的回复。尝试向AI聊天机器人提问您可以向TGAI 聊天助手提问的任何问题。
 
 <figure><img src="../../.gitbook/assets/dify-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
 

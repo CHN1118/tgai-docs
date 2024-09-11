@@ -3,7 +3,7 @@
 ![ollama](../../.gitbook/assets/ollama.png)
 
 [Ollama](https://github.com/jmorganca/ollama) 是一个本地推理框架客户端，可一键部署如 Llama 2, Mistral, Llava 等大型语言模型。
-Dify 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力。
+TGAI 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力。
 
 ## 快速接入
 
@@ -23,7 +23,7 @@ Dify 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力�
 
     其他模型可访问 [Ollama Models](https://ollama.ai/library) 了解详情。
 
-3. 在 Dify 中接入 Ollama
+3. 在 TGAI 中接入 Ollama
 
    在 `设置 > 模型供应商 > Ollama` 中填入：
 
@@ -35,7 +35,7 @@ Dify 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力�
    
      此处需填写可访问到的 Ollama 服务地址。
    
-     若 Dify 为 docker 部署，建议填写局域网 IP 地址，如：`http://192.168.1.100:11434` 或 docker 宿主机 IP 地址，如：`http://172.17.0.1:11434`。
+     若 TGAI 为 docker 部署，建议填写局域网 IP 地址，如：`http://192.168.1.100:11434` 或 docker 宿主机 IP 地址，如：`http://172.17.0.1:11434`。
    
      若为本地源码部署，可填写 `http://localhost:11434`。
 
@@ -65,7 +65,7 @@ Dify 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力�
 
 ## FAQ
 
-### ⚠️ 如果您使用Docker部署Dify和Ollama，您可能会遇到以下错误:
+### ⚠️ 如果您使用Docker部署TGAI和Ollama，您可能会遇到以下错误:
 
 ```
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))
@@ -140,5 +140,5 @@ Ollama默认绑定127.0.0.1端口11434。通过`OLLAMA_HOST`环境变量更改�
 For more information on Ollama, please refer to: 
 
 - [Ollama](https://github.com/jmorganca/ollama)
-- [Ollama FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md)
+- [Ollama FAQ](https://github.com/ollama/ollama/blob/main/docs/faq)
 

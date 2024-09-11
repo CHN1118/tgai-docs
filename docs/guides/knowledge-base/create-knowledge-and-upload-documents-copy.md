@@ -2,7 +2,7 @@
 
 ### 1 创建知识库
 
-在 Dify 主导航栏中点击知识库，在该页面你可以看到已有的知识库。你可以点击 **创建知识库** 进入创建向导：
+在 TGAI 主导航栏中点击知识库，在该页面你可以看到已有的知识库。你可以点击 **创建知识库** 进入创建向导：
 
 <figure><img src="../../.gitbook/assets/image (173).png" alt=""><figcaption><p>创建知识库</p></figcaption></figure>
 
@@ -38,7 +38,7 @@
 
 **分段**：大语言模型存在有限的上下文窗口，通常需要将整段文本进行分段处理后，将与用户问题关联度最高的几个段落召回，即分段 TopK 召回模式。此外，在用户问题与文本分段进行语义匹配时，合适的分段大小将有助于匹配关联性最高的文本内容，减少信息噪音。
 
-**清洗：** 为了保证文本召回的效果，通常需要在将数据传入模型之前对其进行清理。例如，如果输出中存在不需要的字符或者空行，可能会影响问题回复的质量。为了帮助用户解决这个问题， Dify 提供了多种清洗方法，可以帮助用户在将输出发送到下游应用程序之前对其进行清理。
+**清洗：** 为了保证文本召回的效果，通常需要在将数据传入模型之前对其进行清理。例如，如果输出中存在不需要的字符或者空行，可能会影响问题回复的质量。为了帮助用户解决这个问题， TGAI 提供了多种清洗方法，可以帮助用户在将输出发送到下游应用程序之前对其进行清理。
 
 分段与清洗支持两种配置策略
 
@@ -64,14 +64,14 @@
 
 ### 4 ETL 可选配置
 
-在 RAG 的生产级应用中，为了获得更好的数据召回效果，需要对多源数据进行预处理和清洗，即 ETL （_extract, transform, load_）。为了增强非结构化/半结构化数据的预处理能力，Dify 支持了可选的 ETL 方案：**Dify ETL** 和[ ](https://docs.unstructured.io/welcome)[**Unstructured ETL** ](https://unstructured.io/)。
+在 RAG 的生产级应用中，为了获得更好的数据召回效果，需要对多源数据进行预处理和清洗，即 ETL （_extract, transform, load_）。为了增强非结构化/半结构化数据的预处理能力，TGAI 支持了可选的 ETL 方案：**TGAI ETL** 和[ ](https://docs.unstructured.io/welcome)[**Unstructured ETL** ](https://unstructured.io/)。
 
 > Unstructured 能够高效地提取并转换您的数据为干净的数据用于后续的步骤。
 
-Dify 各版本的 ETL 方案选择：
+TGAI 各版本的 ETL 方案选择：
 
 * SaaS 版不可选，默认使用 Unstructured ETL；
-* 社区版可选，默认使用 Dify ETL ，可通过[环境变量](../../getting-started/install-self-hosted/environments#zhi-shi-ku-pei-zhi)开启 Unstructured ETL；
+* 社区版可选，默认使用 TGAI ETL ，可通过[环境变量](../../getting-started/install-self-hosted/environments#zhi-shi-ku-pei-zhi)开启 Unstructured ETL；
 
 文件解析支持格式的差异：
 
@@ -108,7 +108,7 @@ Dify 各版本的 ETL 方案选择：
 
 ### 6 检索设置
 
-在高质量索引模式下，Dify 提供了 3 种检索方案：
+在高质量索引模式下，TGAI 提供了 3 种检索方案：
 
 * **向量检索**，通过生成查询嵌入并查询与其向量表示最相似的文本分段。
 * **全文检索**，索引文档中的所有词汇，从而允许用户查询任意词汇，并返回包含这些词汇的文本片段。
@@ -152,7 +152,7 @@ Rerank 模型：你可以在“模型供应商”页面配置 Rerank 模型的 A
 
   仅启用语义检索模式。借助 Embedding 模型，即便知识库中没有出现查询中的确切词汇，也能通过计算向量距离的方式提高搜索的深度，返回正确内容。此外，当需要处理多语言内容时，语义检索能够捕捉不同语言之间的意义转换，提供更加准确的跨语言搜索结果。
 
-  > 语义检索指的是比对用户问题与知识库内容中的向量距离。距离越近，匹配的概率越大。参考阅读：[《Dify：Embedding 技术与 Dify 数据集设计/规划》](https://mp.weixin.qq.com/s/vmY_CUmETo2IpEBf1nEGLQ)。
+  > 语义检索指的是比对用户问题与知识库内容中的向量距离。距离越近，匹配的概率越大。参考阅读：[《TGAI：Embedding 技术与 TGAI 数据集设计/规划》](https://mp.weixin.qq.com/s/vmY_CUmETo2IpEBf1nEGLQ)。
 
 - **关键词值为 1**
   

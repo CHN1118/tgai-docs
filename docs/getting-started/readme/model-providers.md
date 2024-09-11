@@ -1,6 +1,6 @@
 # 模型供应商列表
 
-Dify 为以下模型提供商提供原生支持：
+TGAI 为以下模型提供商提供原生支持：
 
 <table data-full-width="false">
     <thead>

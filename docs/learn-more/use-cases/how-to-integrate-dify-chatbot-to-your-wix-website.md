@@ -1,17 +1,17 @@
-# 如何将 Dify Chatbot 集成至 Wix 网站？
+# 如何将 TGAI Chatbot 集成至 Wix 网站？
 
-Wix 是一个非常流行的网站创建平台，它允许用户通过拖拽的方式可视化创建自己的网站。通过 iframe 代码功能，能够实现 Wix 与 Dify 聊天机器人的集成。
+Wix 是一个非常流行的网站创建平台，它允许用户通过拖拽的方式可视化创建自己的网站。通过 iframe 代码功能，能够实现 Wix 与 TGAI 聊天机器人的集成。
 
 除此之外，你还可以使用此功能在 Wix 网页内显示来自外部服务器和其他来源的内容，例如说创建天气小部件、股票小部件、日历或任何其它自定义网页元素。
 
-在本文中，我们将指导你如何将 Dify 聊天机器人通过 iframe 代码嵌入到你的 Wix 网站中。除了将应用嵌入至 Wix 网站内，你也可以通过同样的方法将 Dify 应用集成至你的网站、博客或其他网页中。
+在本文中，我们将指导你如何将 TGAI 聊天机器人通过 iframe 代码嵌入到你的 Wix 网站中。除了将应用嵌入至 Wix 网站内，你也可以通过同样的方法将 TGAI 应用集成至你的网站、博客或其他网页中。
 
-## 1. 获取 Dify 应用的 iFrame 代码片段
+## 1. 获取 TGAI 应用的 iFrame 代码片段
 
-假设你已创建了一个 [Dify AI 应用](https://docs.dify.ai/v/zh-hans/guides/application-orchestrate/creating-an-application)，你可以通过以下步骤获取 Dify 应用的 iFrame 代码片段：
+假设你已创建了一个 [TGAI AI 应用](https://docs.dify.ai/v/zh-hans/guides/application-orchestrate/creating-an-application)，你可以通过以下步骤获取 TGAI 应用的 iFrame 代码片段：
 
-- 登录你的 Dify 账户
-- 选择你想要嵌入的 Dify 应用
+- 登录你的 TGAI 账户
+- 选择你想要嵌入的 TGAI 应用
 - 点击右上角的“发布”按钮
 - 在发布页面中，选择 “Embed Into Site” 选项。
   
@@ -27,9 +27,9 @@ Wix 是一个非常流行的网站创建平台，它允许用户通过拖拽的�
 
 ![](../../../img/best-practice-add-html-iframe.png)
 
-在 `HTML Settings` 框内选择 `Code` 选项，复制并粘贴你在 Dify 应用中获取的 iFrame 代码片段，然后点击 **Update** 按钮进行保存并进行预览。
+在 `HTML Settings` 框内选择 `Code` 选项，复制并粘贴你在 TGAI 应用中获取的 iFrame 代码片段，然后点击 **Update** 按钮进行保存并进行预览。
 
-以下是一个嵌入 Dify Chatbot 的 iFrame 代码示例：
+以下是一个嵌入 TGAI Chatbot 的 iFrame 代码示例：
 
 ```bash
 <iframe src="https://udify.app/chatbot/1yS3gohroW1sKyLc" style="width: 100%; height: 100%; min-height: 700px" frameborder="0" allow="microphone"></iframe>
@@ -39,9 +39,9 @@ Wix 是一个非常流行的网站创建平台，它允许用户通过拖拽的�
 
 > ⚠️ 请确保 iFrame 代码中的地址以 HTTPS 开头，HTTP 地址将无法正常显示。
 
-## 3. 自定义 Dify Chatbot
+## 3. 自定义 TGAI Chatbot
 
-你可以调整 Dify Chatbot 的按钮样式、位置和其它设置。
+你可以调整 TGAI Chatbot 的按钮样式、位置和其它设置。
 
 ### 3.1 自定义样式
 

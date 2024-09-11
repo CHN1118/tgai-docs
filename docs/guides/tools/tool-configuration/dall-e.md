@@ -1,16 +1,16 @@
 # DALL-E 绘图
 
-> 工具作者 @Dify。
+> 工具作者 @TGAI。
 
-DALL-E 是由 OpenAI 开发的一种基于文本提示生成图像的工具。Dify 已接入 DALL-E 工具，以下是在 Dify 中配置和使用 DALL-E 绘图工具的步骤。
+DALL-E 是由 OpenAI 开发的一种基于文本提示生成图像的工具。TGAI 已接入 DALL-E 工具，以下是在 TGAI 中配置和使用 DALL-E 绘图工具的步骤。
 
 ## 1. 申请 OpenAI 的 API Key
 
 请在 [OpenAI Platform](https://platform.openai.com/)申请 API Key，并确保账户内有足够的 Credits。
 
-## 2. 在 Dify 内填写配置
+## 2. 在 TGAI 内填写配置
 
-在 Dify 导航页内轻点 `工具 > DALL-E > 去授权` 填写 API Key。
+在 TGAI 导航页内轻点 `工具 > DALL-E > 去授权` 填写 API Key。
 
 ![](../../../../img/zh-tools-dalle.png)
 

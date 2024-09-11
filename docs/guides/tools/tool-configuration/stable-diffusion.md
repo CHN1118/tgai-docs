@@ -1,8 +1,8 @@
 # Stable Diffusion
 
-> 工具作者 @Dify。
+> 工具作者 @TGAI。
 
-StableDiffusion 是一种基于文本提示生成图像的工具，Dify 已经实现了访问 Stable Diffusion WebUI API 的接口，因此你可以直接在 Dify 中使用它。以下是在 Dify 中集成 Stable Diffusion 的步骤。
+StableDiffusion 是一种基于文本提示生成图像的工具，TGAI 已经实现了访问 Stable Diffusion WebUI API 的接口，因此你可以直接在 TGAI 中使用它。以下是在 TGAI 中集成 Stable Diffusion 的步骤。
 
 ## 1. 初始化本地环境
 
@@ -62,7 +62,7 @@ git clone https://huggingface.co/JamesFlare/pastel-mix
 
 `model_name` 就是我们需要的，这个例子中是 `pastel-mix_pastelmix-better-vae-fp32`。
 
-## 3. 在 Dify 集成 Stable Diffusion
+## 3. 在 TGAI 集成 Stable Diffusion
 
 在 `工具 > StableDiffusion > 去认证` 中填写你在之前步骤中获取的认证信息和模型配置。
 

@@ -2,15 +2,15 @@
 
 > 工具作者 @zhuhao。
 
-Serper 是一个强大的实时搜索引擎工具API，可提供来自 Google 搜索引擎搜索的结构化数据。以下是在 Dify 中配置和使用 Serper 搜索工具的步骤。
+Serper 是一个强大的实时搜索引擎工具API，可提供来自 Google 搜索引擎搜索的结构化数据。以下是在 TGAI 中配置和使用 Serper 搜索工具的步骤。
 
 ## 1. 申请 Serp API Key
 
 请在 [Serper 平台](https://serper.dev/signup)申请 API Key。
 
-## 2. 在 Dify 内填写配置
+## 2. 在 TGAI 内填写配置
 
-在 Dify 导航页内轻点 `工具 > Serper > 去授权` 填写 API Key。
+在 TGAI 导航页内轻点 `工具 > Serper > 去授权` 填写 API Key。
 
 ![](../../../../img/zh-tool-serper.png)
 

@@ -2,7 +2,7 @@
 
 ### 前置条件
 
-> 安装 Dify 之前, 请确保你的机器已满足最低安装要求：
+> 安装 TGAI 之前, 请确保你的机器已满足最低安装要求：
 > - CPU >= 2 Core
 > - RAM >= 4GB
 
@@ -14,7 +14,7 @@
 
 > 若需要使用 OpenAI TTS，需要在系统中安装 FFmpeg 才可正常使用，详情可参考：[Link](https://docs.dify.ai/v/zh-hans/learn-more/faq/install-faq#id-15.-wen-ben-zhuan-yu-yin-yu-dao-zhe-ge-cuo-wu-zen-me-ban)。
 
-Clone Dify 代码：
+Clone TGAI 代码：
 
 ```Bash
 git clone https://github.com/langgenius/dify.git
@@ -72,7 +72,7 @@ pyenv global 3.10
     ```
 4.  安装依赖包
 
-    Dify API 服务使用 [Poetry](https://python-poetry.org/docs/) 来管理依赖。您可以执行 `poetry shell` 来激活环境。
+    TGAI API 服务使用 [Poetry](https://python-poetry.org/docs/) 来管理依赖。您可以执行 `poetry shell` 来激活环境。
 
     ```
     poetry env use 3.10
@@ -234,6 +234,6 @@ warn  - Experimental features are not covered by semver, and may cause unexpecte
 info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
 ```
 
-### 访问 Dify
+### 访问 TGAI
 
-最后，访问 http://127.0.0.1:3000 即可使用本地部署的 Dify。
+最后，访问 http://127.0.0.1:3000 即可使用本地部署的 TGAI。

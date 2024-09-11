@@ -8,9 +8,9 @@ AlphaVantage 一个在线平台，它提供金融市场数据和API，便于个�
 
 请在 [AlphaVantage](https://www.alphavantage.co/support/#api-key)申请 API Key。
 
-## 2. 在 Dify 内填写配置
+## 2. 在 TGAI 内填写配置
 
-在 Dify 导航页内轻点 `工具 > AlphaVantage > 去授权` 填写 API Key。
+在 TGAI 导航页内轻点 `工具 > AlphaVantage > 去授权` 填写 API Key。
 
 ## 3. 使用工具
 

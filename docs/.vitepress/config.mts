@@ -25,8 +25,8 @@ export default defineConfigWithTheme(
           text: '入门',
           items: [
             {
-              text: '欢迎使用 Dify',
-              link: '/README',
+              text: '欢迎使用 TGAI',
+              link: '/',
               collapsed: true,
               items: [
                 { text: '特性与技术规格', link: '/getting-started/readme/features-and-specifications' },
@@ -46,7 +46,7 @@ export default defineConfigWithTheme(
                 { text: '常见问题', link: '/getting-started/install-self-hosted/faq' }
               ]
             },
-            { text: 'Dify Premium', link: '/getting-started/dify-premium' }
+            { text: 'TGAI Premium', link: '/getting-started/dify-premium' }
           ]
         },
         {
@@ -272,7 +272,7 @@ export default defineConfigWithTheme(
           items: [
             { text: '寻求支持', link: '/community/support' },
             { text: '成为贡献者', link: '/community/contribution' },
-            { text: '为 Dify 文档做出贡献', link: '/community/docs-contribution' }
+            { text: '为 TGAI 文档做出贡献', link: '/community/docs-contribution' }
           ]
         },
         {
@@ -311,11 +311,11 @@ export default defineConfigWithTheme(
                 { text: '教你十几分钟不用代码创建 Midjourney 提示词机器人', link: '/learn-more/use-cases/create-a-midjoureny-prompt-word-robot-with-zero-code' },
                 { text: '构建一个 Notion AI 助手', link: '/learn-more/use-cases/build-an-notion-ai-assistant' },
                 { text: '如何在几分钟内创建一个带有业务数据的官网 AI 智能客服', link: '/learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes' },
-                { text: '使用全套开源工具构建 LLM 应用实战：在 Dify 调用 Baichuan 开源模型能力', link: '/learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools' },
-                { text: '手摸手教你把 Dify 接入微信生态', link: '/learn-more/use-cases/dify-on-wechat' },
-                { text: '使用 Dify 和 Twilio 构建 WhatsApp 机器人', link: '/learn-more/use-cases/dify-on-whatsapp' },
+                { text: '使用全套开源工具构建 LLM 应用实战：在 TGAI 调用 Baichuan 开源模型能力', link: '/learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools' },
+                { text: '手摸手教你把 TGAI 接入微信生态', link: '/learn-more/use-cases/dify-on-wechat' },
+                { text: '使用 TGAI 和 Twilio 构建 WhatsApp 机器人', link: '/learn-more/use-cases/dify-on-whatsapp' },
                 { text: '如何让 LLM 应用提供循序渐进的聊天体验？', link: '/learn-more/use-cases/how-to-make-llm-app-provide-a-progressive-chat-experience' },
-                { text: '如何将 Dify Chatbot 集成至 Wix 网站？', link: '/learn-more/use-cases/how-to-integrate-dify-chatbot-to-your-wix-website' }
+                { text: '如何将 TGAI Chatbot 集成至 Wix 网站？', link: '/learn-more/use-cases/how-to-integrate-dify-chatbot-to-your-wix-website' }
               ]
             },
             {

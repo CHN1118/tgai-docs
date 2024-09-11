@@ -1,16 +1,16 @@
 # Perplexity Search
 
-> 工具作者 @Dify。
+> 工具作者 @TGAI。
 
-Perplexity 是一个基于 AI 的搜索引擎，能够理解复杂的查询并提供准确、相关的实时答案。以下是在 Dify 中配置和使用 Perplexity Search 工具的步骤。
+Perplexity 是一个基于 AI 的搜索引擎，能够理解复杂的查询并提供准确、相关的实时答案。以下是在 TGAI 中配置和使用 Perplexity Search 工具的步骤。
 
 ## 1. 申请 Perplexity API Key
 
 请在 [Perplexity](https://www.perplexity.ai/settings/api)申请 API Key，并确保账户内有足够的 Credits。
 
-## 2. 在 Dify 内填写配置
+## 2. 在 TGAI 内填写配置
 
-在 Dify 导航页内轻点 `工具 > Perplexity > 去授权` 填写 API Key。
+在 TGAI 导航页内轻点 `工具 > Perplexity > 去授权` 填写 API Key。
 
 ![](../../../../img/zh-tools-perplexity.png)
 
