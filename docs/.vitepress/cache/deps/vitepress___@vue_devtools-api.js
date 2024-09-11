@@ -1,6 +1,6 @@
 import "./chunk-5WRI5ZAA.js";
 
-// ../../../.yarn/berry/cache/@vue-devtools-shared-npm-7.4.4-9bf65cbd24-10c0.zip/node_modules/@vue/devtools-shared/dist/index.js
+// node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -256,7 +256,7 @@ function isUrlString(str) {
 var deepClone = (0, import_rfdc.default)({ circles: true });
 init_esm_shims();
 
-// ../../../.yarn/berry/cache/hookable-npm-5.5.3-82b0342097-10c0.zip/node_modules/hookable/dist/index.mjs
+// node_modules/hookable/dist/index.mjs
 function flatHooks(configHooks, hooks2 = {}, parentName) {
   for (const key in configHooks) {
     const subHook = configHooks[key];
@@ -461,7 +461,7 @@ function createHooks() {
   return new Hookable();
 }
 
-// ../../../.yarn/berry/cache/perfect-debounce-npm-1.0.0-0968810009-10c0.zip/node_modules/perfect-debounce/dist/index.mjs
+// node_modules/perfect-debounce/dist/index.mjs
 var DEBOUNCE_DEFAULTS = {
   trailing: true
 };
@@ -518,11 +518,11 @@ async function _applyPromised(fn, _this, args) {
   return await fn.apply(_this, args);
 }
 
-// ../../../.yarn/berry/cache/birpc-npm-0.2.17-eb6fe0abb4-10c0.zip/node_modules/birpc/dist/index.mjs
+// node_modules/birpc/dist/index.mjs
 var { clearTimeout: clearTimeout2, setTimeout: setTimeout2 } = globalThis;
 var random = Math.random.bind(Math);
 
-// ../../../.yarn/berry/cache/@vue-devtools-kit-npm-7.4.4-f4e2ff0d4b-10c0.zip/node_modules/@vue/devtools-kit/dist/index.js
+// node_modules/@vue/devtools-kit/dist/index.js
 var __create2 = Object.create;
 var __defProp2 = Object.defineProperty;
 var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
