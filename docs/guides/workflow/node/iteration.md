@@ -34,9 +34,10 @@
 
 <figure><img src="../../../../img/zh-iteration-extract-node.png" alt="" width="375"><figcaption><p>参数提取</p></figcaption></figure>
 
-> **提示：**
-参数提取效果受模型推理能力和指令影响，使用推理能力更强的模型，在**指令**内增加示例可以提高参数提取的效果。
+::: tip
 
+参数提取效果受模型推理能力和指令影响，使用推理能力更强的模型，在**指令**内增加示例可以提高参数提取的效果。
+:::
 
 4. 将数组格式的故事大纲作为迭代节点的输入，在迭代节点内部使用 **LLM 节点** 进行处理
 
@@ -46,9 +47,10 @@
 
 <figure><img src="../../../.gitbook/assets/image (221).png" alt="" width="375"><figcaption><p>配置 LLM 节点</p></figcaption></figure>
 
-> **提示：**
-迭代的内置变量：`items[object]` 和 `index[number]`
+::: tip
 
+迭代的内置变量：`items[object]` 和 `index[number]`
+:::
 `items[object] 代表以每轮迭代的输入条目；`
 
 `index[number] 代表当前迭代的轮次；`

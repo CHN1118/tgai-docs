@@ -4,9 +4,9 @@
 
 ### 社区支持
 
-> **提示：**
+::: tip
 请不要将涉及你的 Dify 账户信息与其它密钥信息发至社区，我们的支持人员也不会索要您的账户信息。
-
+:::
 
 * 在 [Github](https://github.com/langgenius/dify) 上提交 Issue
 * 加入 [Discord ](https://discord.gg/8Tpq4AcN9c)社群

@@ -8,9 +8,10 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>模型负载均衡</p></figcaption></figure>
 
-> **提示：**
-模型负载均衡为付费特性，您可以通过[订阅 SaaS 付费服务](../../getting-started/cloud.md#ding-yue-ji-hua)或者购买企业版来开启该功能。
+::: tip
 
+模型负载均衡为付费特性，您可以通过[订阅 SaaS 付费服务](../../getting-started/cloud.md#ding-yue-ji-hua)或者购买企业版来开启该功能。
+:::
 
 默认配置中的 API Key 为初次配置模型供应商时添加的凭据，您需要点击 **增加配置** 添加同一模型的不同 API Key 来正常使用负载均衡功能。
 
@@ -26,9 +27,10 @@
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="563"><figcaption><p>开启负载均衡</p></figcaption></figure>
 
-> **提示：**
-默认情况下，负载均衡使用 Round-robin 策略。如果触发速率限制，将应用 1 分钟的冷却时间。
+::: tip
 
+默认情况下，负载均衡使用 Round-robin 策略。如果触发速率限制，将应用 1 分钟的冷却时间。
+:::
 
 你也可以从 **添加模型** 配置负载均衡，配置流程与上面一致。
 

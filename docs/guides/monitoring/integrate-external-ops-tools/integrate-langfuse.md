@@ -4,9 +4,10 @@
 
 Langfuse 是一个开源的 LLM 工程平台，可以帮助团队协作调试、分析和迭代他们的应用程序。
 
-> **提示：**
-Langfuse 官网介绍：[https://langfuse.com/](https://langfuse.com/)
+::: tip
 
+Langfuse 官网介绍：[https://langfuse.com/](https://langfuse.com/)
+:::
 
 ***
 

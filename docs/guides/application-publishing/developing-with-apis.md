@@ -17,8 +17,9 @@ Dify 基于“**后端即服务**”理念为所有应用提供了 API，为 AI 
 
 例如你是一个咨询公司的开发部分，你可以基于公司的私有数据库提供 AI 能力给终端用户或开发者，但开发者无法掌握你的数据和 AI 逻辑设计，从而使得服务可以安全、可持续的交付并满足商业目的。
 
-{% hint style="warning" %}
+::: warning
 在最佳实践中，API 密钥应通过后端调用，而不是直接以明文暴露在前端代码或请求中，这样可以防止你的应用被滥用或攻击。
+:::
 
 
 你可以为一个应用**创建多个访问凭据**，以实现交付给不同的用户或开发者。这意味着 API 的使用者虽然使用了应用开发者提供的 AI 能力，但背后的 Promp 工程、数据集和工具能力是经封装的。
@@ -31,10 +32,9 @@ Dify 基于“**后端即服务**”理念为所有应用提供了 API，为 AI 
 
 例如，创建文本补全信息的 API 的调用示例：
 
-{% tabs %}
-{% tab title="cURL" %}
-```
-curl --location --request POST 'https://api.dify.ai/v1/completion-messages' \
+
+```curl
+--location --request POST 'https://api.dify.ai/v1/completion-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -43,9 +43,8 @@ curl --location --request POST 'https://api.dify.ai/v1/completion-messages' \
     "user": "abc-123"
 }'
 ```
-{% endtab %}
 
-{% tab title="Python" %}
+
 ```python
 import requests
 import json
@@ -67,8 +66,7 @@ response = requests.post(url, headers=headers, data=json.dumps(data))
 
 print(response.text)
 ```
-{% endtab %}
-{% endtabs %}
+
 
 #### 对话型应用
 
@@ -78,10 +76,9 @@ print(response.text)
 
 例如，发送对话信息的 API的调用示例：
 
-{% tabs %}
-{% tab title="cURL" %}
-```
-curl --location --request POST 'https://api.dify.ai/v1/chat-messages' \
+
+```curl
+--location --request POST 'https://api.dify.ai/v1/chat-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -93,9 +90,7 @@ curl --location --request POST 'https://api.dify.ai/v1/chat-messages' \
 }'
 
 ```
-{% endtab %}
 
-{% tab title="Python" %}
 ```python
 import requests
 import json
@@ -117,5 +112,3 @@ response = requests.post(url, headers=headers, data=json.dumps(data))
 
 print(response.json())
 ```
-{% endtab %}
-{% endtabs %}

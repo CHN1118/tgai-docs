@@ -11,9 +11,10 @@
 
 <figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption><p>创建知识库</p></figcaption></figure>
 
-> **提示：**
-如果你在创建数据集时选择了使用外部数据源，该知识库的类型不可更改。这是为了防止单一知识库存在多数据源而造成的管理困难。如果你需要使用多个数据源，建议创建多个知识库。
+::: tip
 
+如果你在创建数据集时选择了使用外部数据源，该知识库的类型不可更改。这是为了防止单一知识库存在多数据源而造成的管理困难。如果你需要使用多个数据源，建议创建多个知识库。
+:::
 
 ***
 
@@ -78,9 +79,10 @@ Dify 各版本的 ETL 方案选择：
 | ---------------------------------------------- | ------------------------------------------------------------------------ |
 | txt、markdown、md、pdf、html、htm、xlsx、xls、docx、csv | txt、markdown、md、pdf、html、htm、xlsx、xls、docx、csv、eml、msg、pptx、ppt、xml、epub |
 
-> **提示：**
-不同的 ETL 方案在文件提取效果的方面也会存在差异，想了解更多关于 Unstructured ETL 的数据处理方式，请参考[官方文档](https://docs.unstructured.io/open-source/core-functionality/partitioning)。
+::: tip
 
+不同的 ETL 方案在文件提取效果的方面也会存在差异，想了解更多关于 Unstructured ETL 的数据处理方式，请参考[官方文档](https://docs.unstructured.io/open-source/core-functionality/partitioning)。
+:::
 
 ***
 

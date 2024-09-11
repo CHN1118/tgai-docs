@@ -267,7 +267,7 @@ export default defineConfigWithTheme(
         },
         {
           text: '社区',
-          link: '/community/README',
+          // link: '/community/README',
           // collapsed: true,
           items: [
             { text: '寻求支持', link: '/community/support' },
@@ -277,7 +277,7 @@ export default defineConfigWithTheme(
         },
         {
           text: '研发',
-          link: '/development/README',
+          // link: '/development/README',
           // collapsed: true,
           items: [
             {
@@ -299,7 +299,7 @@ export default defineConfigWithTheme(
         },
         {
           text: '阅读更多',
-          link: '/learn-more/README',
+          // link: '/learn-more/README',
           // collapsed: true,
           items: [
             {
@@ -353,7 +353,7 @@ export default defineConfigWithTheme(
         },
         {
           text: '政策',
-          link: '/policies/README',
+          // link: '/policies/README',
           items: [
             { text: '开源许可证', link: '/policies/open-source' },
             {

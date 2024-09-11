@@ -18,9 +18,10 @@
 
 ### 改进标注
 
-> **提示：**
-这些标记将在 Dify 的后续版本中供模型微调使用，以提升模型的准确性与回复风格，当前预览版仅支持标记。
+::: tip
 
+这些标记将在 Dify 的后续版本中供模型微调使用，以提升模型的准确性与回复风格，当前预览版仅支持标记。
+:::
 
 <figure><img src="../../.gitbook/assets/app-log.png" alt=""><figcaption><p>标记日志以改进</p></figcaption></figure>
 

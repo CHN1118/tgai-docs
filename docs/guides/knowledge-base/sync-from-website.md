@@ -2,9 +2,10 @@
 
 Dify 知识库通过集成 Firecrawl ，支持网页抓取并解析为 Markdown 导入至知识库。
 
-> **提示：**
-[Firecrawl ](https://www.firecrawl.dev/)是一个开源的网页解析工具，它能将网页将其转换为干净并且方便 LLM 识别的 Markdown 格式文本，它同时提供了易于使用的 API 服务。
+::: tip
 
+[Firecrawl ](https://www.firecrawl.dev/)是一个开源的网页解析工具，它能将网页将其转换为干净并且方便 LLM 识别的 Markdown 格式文本，它同时提供了易于使用的 API 服务。
+:::
 
 ### 如何配置
 

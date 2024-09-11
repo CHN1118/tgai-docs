@@ -58,9 +58,10 @@ Dify 在需要模型时，会根据使用场景来选择设置过的默认模型
 
 在 Dify 中设置对应模型供应商的 API key，即可接入该模型供应商。
 
-> **提示：**
-Dify 使用了 [PKCS1\_OAEP](https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html) 来加密存储用户托管的 API 密钥，每个租户均使用了独立的密钥对进行加密，确保你的 API 密钥不被泄漏。
+::: tip
 
+Dify 使用了 [PKCS1\_OAEP](https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html) 来加密存储用户托管的 API 密钥，每个租户均使用了独立的密钥对进行加密，确保你的 API 密钥不被泄漏。
+:::
 
 **接入托管模型的模型供应商**
 

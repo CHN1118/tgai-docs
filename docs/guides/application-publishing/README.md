@@ -1,17 +1,17 @@
 # 发布
 
-{% content-ref url="launch-your-webapp-quickly/" %}
-[发布为公开 Web 站点](launch-your-webapp-quickly/)
-{% endcontent-ref %}
+<div class="link-card" style="margin-top:12px">
+  <a href="launch-your-webapp-quickly/">发布为公开 Web 站点</a>
+</div>
 
-{% content-ref url="embedding-in-websites" %}
-[嵌入网站](embedding-in-websites)
-{% endcontent-ref %}
+<div class="link-card">
+  <a href="embedding-in-websites">嵌入网站</a>
+</div>
 
-{% content-ref url="developing-with-apis" %}
-[基于 APIs 开发](developing-with-apis)
-{% endcontent-ref %}
+<div class="link-card">
+  <a href="developing-with-apis">基于 APIs 开发</a>
+</div>
 
-{% content-ref url="based-on-frontend-templates" %}
-[基于前端组件再开发](based-on-frontend-templates)
-{% endcontent-ref %}
+<div class="link-card">
+  <a href="based-on-frontend-templates">基于前端组件再开发</a>
+</div>

@@ -19,3 +19,31 @@
 .group{
     border-top: none !important;
 }
+
+/* custom.css */
+.link-card {
+    border: 1px solid #dddddd5c;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .link-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link-card a {
+    font-size: 14px;
+    color: #a8b1ff;
+    text-decoration: none;
+  }
+  
+  .link-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .custom-block-title{
+    display: none;
+  }

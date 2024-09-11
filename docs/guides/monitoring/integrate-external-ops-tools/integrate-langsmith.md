@@ -4,9 +4,10 @@
 
 LangSmith 是一个用于构建生产级 LLM 应用程序的平台，它用于开发、协作、测试、部署和监控 LLM 应用程序。
 
-> **提示：**
-LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langchain.com/langsmith)
+::: tip
 
+LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langchain.com/langsmith)
+:::
 
 ***
 
@@ -54,9 +55,10 @@ LangSmith 官网介绍：[https://www.langchain.com/langsmith](https://www.langc
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>配置 LangSmith</p></figcaption></figure>
 
-> **提示：**
-配置项目名需要与 LangSmith 内设置的项目一致，若项目名不一致，数据同步时 LangSmith 会自动创建一个新的项目。
+::: tip
 
+配置项目名需要与 LangSmith 内设置的项目一致，若项目名不一致，数据同步时 LangSmith 会自动创建一个新的项目。
+:::
 
 成功保存后可以在当前页面查看监测状态。
 
