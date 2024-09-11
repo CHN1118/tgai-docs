@@ -1,3 +1,5 @@
+import "./chunk-5WRI5ZAA.js";
+
 // ../../../.yarn/berry/cache/@vue-devtools-shared-npm-7.4.4-9bf65cbd24-10c0.zip/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;

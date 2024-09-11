@@ -1,40 +1,58 @@
 {
-  "hash": "1a989737",
-  "configHash": "c38c4109",
-  "lockfileHash": "637299c7",
-  "browserHash": "4b84d6e9",
+  "hash": "d37f45c6",
+  "configHash": "adbd8896",
+  "lockfileHash": "44ae034e",
+  "browserHash": "95f7eeac",
   "optimized": {
     "vue": {
       "src": "../../../../.yarn/__virtual__/vue-virtual-36a2a42dad/4/.yarn/berry/cache/vue-npm-3.5.3-1804e357ca-10c0.zip/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "b1541b67",
+      "fileHash": "90498dad",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../../../.yarn/berry/cache/@vue-devtools-api-npm-7.4.4-efdbf6b22b-10c0.zip/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "25a6366d",
+      "fileHash": "bac08597",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../../../.yarn/berry/cache/@vueuse-core-npm-11.0.3-a1258bee48-10c0.zip/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "b99f4088",
+      "fileHash": "47d9dc23",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../.yarn/__virtual__/vitepress-virtual-9e441ace20/4/.yarn/berry/cache/vitepress-npm-1.3.4-0f6dbdfb16-10c0.zip/node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "75d24d5f",
+    "@escook/vitepress-theme": {
+      "src": "../../../../../../../.yarn/berry/cache/@escook-vitepress-theme-npm-1.3.1-cb0c33ffdd-10c0.zip/node_modules/@escook/vitepress-theme/dist/index.js",
+      "file": "@escook_vitepress-theme.js",
+      "fileHash": "ed5486e5",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../../../.yarn/__virtual__/vue-router-virtual-57cffc15eb/4/.yarn/berry/cache/vue-router-npm-4.4.3-4334ba6d34-10c0.zip/node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "b2f4fd2f",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-RBHQVR3K": {
-      "file": "chunk-RBHQVR3K.js"
+    "EscookMusicBall-BkDBnoZh-MXJQWCZC": {
+      "file": "EscookMusicBall-BkDBnoZh-MXJQWCZC.js"
+    },
+    "chunk-TBAGTQV5": {
+      "file": "chunk-TBAGTQV5.js"
+    },
+    "EscookHomeFeatureBefore-D_e5sYrO-F2Z4WEAV": {
+      "file": "EscookHomeFeatureBefore-D_e5sYrO-F2Z4WEAV.js"
+    },
+    "EscookConfetti-BU05OPRV-3TO4NBG7": {
+      "file": "EscookConfetti-BU05OPRV-3TO4NBG7.js"
     },
     "chunk-U4V6X7N5": {
       "file": "chunk-U4V6X7N5.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
     }
   }
 }

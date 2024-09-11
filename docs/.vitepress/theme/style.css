@@ -1,0 +1,17 @@
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5 {
+    text-decoration-color: none;
+    text-decoration-thickness: none;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    text-decoration-skip-ink: none;
+    text-underline-offset: none;
+    -moz-text-decoration-color: none;
+}
+
+.dark .vp-doc .vp-adaptive-theme:not(.vp-code-group .vp-adaptive-theme):hover {
+    background: conic-gradient(from var(--anix), rgba(0, 255, 0, 0.15), rgba(255, 255, 0, 0.15), rgba(0, 255, 255, 0.15), rgba(255, 0, 255, 0.15), rgba(0, 255, 255, 0.15));
+}
