@@ -3,47 +3,60 @@
 .vp-doc h3,
 .vp-doc h4,
 .vp-doc h5 {
-    text-decoration-color: none;
-    text-decoration-thickness: none;
-    text-decoration-style: none;
-    text-decoration-line: none;
-    text-decoration-skip-ink: none;
-    text-underline-offset: none;
-    -moz-text-decoration-color: none;
+  text-decoration-color: none;
+  text-decoration-thickness: none;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  text-decoration-skip-ink: none;
+  text-underline-offset: none;
+  -moz-text-decoration-color: none;
 }
 
 .dark .vp-doc .vp-adaptive-theme:not(.vp-code-group .vp-adaptive-theme):hover {
-    background: conic-gradient(from var(--anix), rgba(0, 255, 0, 0.15), rgba(255, 255, 0, 0.15), rgba(0, 255, 255, 0.15), rgba(255, 0, 255, 0.15), rgba(0, 255, 255, 0.15));
+  background: conic-gradient(from var(--anix), rgba(0, 255, 0, 0.15), rgba(255, 255, 0, 0.15), rgba(0, 255, 255, 0.15), rgba(255, 0, 255, 0.15), rgba(0, 255, 255, 0.15));
 }
 
-.group{
-    border-top: none !important;
+.group {
+  border-top: none !important;
 }
 
 /* custom.css */
 .link-card {
-    border: 1px solid #dddddd5c;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.2s ease;
-  }
-  
-  .link-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .link-card a {
-    font-size: 14px;
-    color: #a8b1ff;
-    text-decoration: none;
-  }
-  
-  .link-card a:hover {
-    text-decoration: underline;
-  }
-  
-  .custom-block-title{
-    display: none;
-  }
+  border: 1px solid #dddddd5c;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.link-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.link-card a {
+  font-size: 14px;
+  color: #a8b1ff;
+  text-decoration: none;
+}
+
+.link-card a:hover {
+  text-decoration: underline;
+}
+
+.custom-block-title {
+  display: none;
+}
+
+.medium-zoom-overlay {
+  background-color: var(--vp-c-bg) !important;
+  z-index: 100;
+}
+
+.medium-zoom-overlay~img {
+  z-index: 101;
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+  opacity: 0.9 !important;
+}

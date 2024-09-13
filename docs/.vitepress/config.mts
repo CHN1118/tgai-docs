@@ -1,19 +1,20 @@
 import { defineConfigWithTheme } from 'vitepress'
 import escookConfig from '@escook/vitepress-theme/config'
 
-
 // const language = localStorage.getItem("language")
 // console.log('language:', language)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme(
-
   {
     extends: escookConfig,
     title: "TGAI",
     description: "",
     head: [['link', { rel: 'icon', href: '/logo.jpg' }]],
     themeConfig: {
+      search: {
+        provider: 'local'
+      },
       confetti: false,
       // https://vitepress.dev/reference/default-theme-config
       nav: [
