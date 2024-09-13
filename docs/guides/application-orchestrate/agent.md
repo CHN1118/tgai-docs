@@ -32,7 +32,7 @@
 
 另外工具也可以方便将你的应用与其他系统或服务连接，与外部环境交互。例如代码执行、对专属信息源的访问等。你只需要在对话框中谈及需要调用的某个工具的名字，即可自动调用该工具。
 
-![](../../../img/zh-agent-dalle3.png)
+<figure><img src="../../img/zh-agent-dalle3.png" alt=""><figcaption></figcaption></figure>
 
 ### 配置 Agent
 

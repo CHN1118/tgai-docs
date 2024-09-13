@@ -44,13 +44,13 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 在 LLM 节点内，你可以自定义模型输入提示词。如果选择聊天模型（Chat model），你可以自定义系统提示词（SYSTEM）/用户（USER）/助手（ASSISTANT）三部分内容。
 
-<figure><img src="../../../../img/zh-node-llm.png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../../img//zh-node-llm.png" alt="" width="352"><figcaption></figcaption></figure>
 
 **提示生成器**
 
 如果在编写系统提示词（SYSTEM）时没有好的头绪，也可以使用提示生成器功能，借助 AI 能力快速生成适合实际业务场景的提示词。
 
-![](../../../../img/zh-node-llm-prompt-generator.png)
+<figure><img src="../../../img//zh-node-llm-prompt-generator.png" alt=""><figcaption></figcaption></figure>
 
 在提示词编辑器中，你可以通过输入 **“/”** 或者 **“{”** 呼出 **变量插入菜单**，将 **特殊变量块** 或者 **上游节点变量** 插入到提示词中作为上下文内容。
 
@@ -77,7 +77,7 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 **会话历史**
 
-为了在文本补全类模型（例如 gpt-3.5-turbo-Instruct）内实现聊天型应用的对话记忆，TGAI 在原[提示词专家模式（已下线）](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/)内设计了会话历史变量，该变量沿用至 Chatflow 的 LLM 节点内，用于在提示词中插入 AI 与用户之间的聊天历史，帮助 LLM 理解对话上文。
+为了在文本补全类模型（例如 gpt-3.5-turbo-Instruct）内实现聊天型应用的对话记忆，TGAI 在原[提示词专家模式（已下线）](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/README)内设计了会话历史变量，该变量沿用至 Chatflow 的 LLM 节点内，用于在提示词中插入 AI 与用户之间的聊天历史，帮助 LLM 理解对话上文。
 
 ::: tip
 

@@ -27,7 +27,7 @@
 
 ### 场景
 
-<figure><img src="../../../../img/zh-if-else-elif.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../img//zh-if-else-elif.png" alt=""><figcaption></figcaption></figure>
 
 以**文本总结工作流**作为示例说明各个条件：
 

@@ -12,7 +12,7 @@ Serper 是一个强大的实时搜索引擎工具API，可提供来自 Google �
 
 在 TGAI 导航页内轻点 `工具 > Serper > 去授权` 填写 API Key。
 
-![](../../../../img/zh-tool-serper.png)
+<figure><img src="../../../img//zh-tool-serper.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 使用工具
 

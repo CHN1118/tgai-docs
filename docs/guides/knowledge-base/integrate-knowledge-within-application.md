@@ -29,7 +29,8 @@ N 选 1 召回由 Function Call/ReAct 进行驱动，每一个关联的知识库
 
 举例：A 应用的上下文关联了 K1、K2、K3 三个知识库。使用 N 选 1 召回策略后，用户在应用内输入问题后，LLM 将检索这三个知识库的描述，匹配某个最适合的知识库并使用其中的内容进行检索。
 
-![](../../../img/zh-n-to-1.png)
+<figure><img src="../../img/zh-n-to-1.png" alt=""><figcaption></figcaption></figure>
+
 
 虽然此方法无需配置 [Rerank](https://docs.dify.ai/v/zh-hans/learn-more/extended-reading/retrieval-augment/rerank) 模型，但该召回策略仅匹配单个知识库，且匹配的目标知识库严重依赖于 LLM 对于知识库描述的理解，检索匹配知识库时可能会存在不合理的判断，导致检索到的结果可能不全面、不准确，从而无法提供高质量的查询结果。
 
@@ -51,11 +52,11 @@ N 选 1 召回由 Function Call/ReAct 进行驱动，每一个关联的知识库
 
 在多路召回模式下，检索器会在所有与应用关联的知识库中去检索与用户问题相关的文本内容，并将多路召回的相关文档结果合并，以下是多路召回模式的技术流程图：
 
-<figure><img src="../../../img/rerank-flow-chart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../img/rerank-flow-chart.png" alt=""><figcaption></figcaption></figure>
 
 根据用户意图同时检索所有添加至 **“上下文”** 的知识库，在多个知识库内查询相关文本片段，选择所有和用户问题相匹配的内容，最后通过 Rerank 策略找到最适合的内容并回答用户。该方法的检索原理更为科学。
 
-<figure><img src="../../../img/zh-rag-multiple.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../img//zh-rag-multiple.png" alt=""><figcaption></figcaption></figure>
 
 举例：A 应用的上下文关联了 K1、K2、K3 三个知识库，当用户输入问题后，将在三个知识库内检索并汇总多条内容。为确保能找到最匹配的内容，需要通过 Rerank 策略确定与用户问题最相关的内容，确保结果更加精准与可信。
 
@@ -91,7 +92,7 @@ Rerank 模型是一种外部评分系统，它会计算用户问题与给定的�
 
 TGAI 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 Rerank 模型（例如 Cohere、Jina 等模型）的 API Key。
 
-<figure><img src="../../../img/zh-rerank-model-api.png" alt=""><figcaption><p>在模型供应商内配置 Rerank 模型</p></figcaption></figure>
+<figure><img src="../../img/zh-rerank-model-api.png" alt=""><figcaption><p>在模型供应商内配置 Rerank 模型</p></figcaption></figure>
 
 ##### 可调参数
 
@@ -121,9 +122,9 @@ TGAI 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
 以下是知识库检索方式对多路召回的影响情况：
 
-![](../../../img/zh-integrate-knowledge-within-app.png)
+<figure><img src="../../img//zh-integrate-knowledge-within-app.png" alt=""><figcaption></figcaption></figure>
 
-3. **引用多个知识库时，无法调整 **“权重设置”**，提示错误应如何处理？**
+1. **引用多个知识库时，无法调整 **“权重设置”**，提示错误应如何处理？**
 
 出现此问题是因为上下文内所引用的多个知识库内所使用的嵌入模型（Embedding）不一致，为避免检索内容冲突而出现此提示。推荐设置在“模型供应商”内设置并启用 Rerank 模型，或者统一知识库的检索设置。
 

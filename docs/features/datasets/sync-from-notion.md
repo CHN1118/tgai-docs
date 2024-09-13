@@ -7,7 +7,7 @@ TGAI的概念支持从概念导入并设置 **同步** 以便在概念更新后�
 1. 当创建知识库时, 选择数据源, 点击 **从概念同步--转到连接**, 并根据提示完成授权验证.
 2. 你也可以: 点击 **设置--数据源--添加数据源**, 点击概念来源 **连接** 以完成鉴权.
 
-<figure><img src="../../.gitbook/assets/notion-connect.png" alt=""><figcaption><p>概念链接</p></figcaption></figure>
+<!-- <figure><img src="../../.gitbook/assets/notion-connect.png" alt=""><figcaption><p>概念链接</p></figcaption></figure> -->
 
 ### 导入数据
 
@@ -23,7 +23,7 @@ _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 如果您的概念内容已被修改，您可以直接在dify知识文档列表页面上单击[同步]按钮，一键同步数据(请注意，每次单击都会同步当前内容)。此步骤需要使用令牌.
 
-<figure><img src="../../.gitbook/assets/sync-notion-data.png" alt=""><figcaption><p>同步概念数据</p></figcaption></figure>
+<!-- <figure><img src="../../.gitbook/assets/sync-notion-data.png" alt=""><figcaption><p>同步概念数据</p></figcaption></figure> -->
 
 ### (社区版) 概念集成配置指南
 

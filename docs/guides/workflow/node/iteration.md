@@ -28,11 +28,11 @@
 
 2. 通过 **LLM 节点** 基于故事标题与大纲撰写文本；
 
-<figure><img src="../../../../img/iteration-llm-node.png" alt="" width="375"><figcaption><p>模板节点</p></figcaption></figure>
+<figure><img src="../../../img//iteration-llm-node.png" alt="" width="375"><figcaption><p>模板节点</p></figcaption></figure>
 
 1. 通过 **参数提取节点**，将故事文本转换成为数组（Array）结构。提取参数为 `sections` ，参数类型为 `Array[Object]`
 
-<figure><img src="../../../../img/zh-iteration-extract-node.png" alt="" width="375"><figcaption><p>参数提取</p></figcaption></figure>
+<figure><img src="../../../img//zh-iteration-extract-node.png" alt="" width="375"><figcaption><p>参数提取</p></figcaption></figure>
 
 ::: tip
 

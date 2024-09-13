@@ -144,7 +144,7 @@ Rerank 模型：你可以在“模型供应商”页面配置 Rerank 模型的 A
 
 定义：同时执行全文检索和向量检索，并应用重排序步骤，从两类查询结果中选择匹配用户问题的最佳结果。在此模式下可以指定“权重设置”（无需配置 Rerank 模型 API）或选择 Rerank 模型进行检索。
 
-<figure><img src=".../../../../../img/zh-create-knowledge.png" alt="" width="563"><figcaption><p>混合检索设置</p></figcaption></figure>
+<figure><img src="../../img//zh-create-knowledge.png" alt="" width="563"><figcaption><p>混合检索设置</p></figcaption></figure>
 
 权重设置：允许用户赋予语义优先和关键词优先自定义的权重。关键词检索指的是在知识库内进行全文检索（Full Text Search），语义检索指的是在知识库内进行向量检索（Vector Search）。
 

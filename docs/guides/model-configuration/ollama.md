@@ -27,7 +27,7 @@ TGAI 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力�
 
    在 `设置 > 模型供应商 > Ollama` 中填入：
 
-   ![](../../.gitbook/assets/ollama-config-zh.png)
+   <figure><img src="../../.gitbook/assets/ollama-config-zh.png" alt=""><figcaption></figcaption></figure>
 
    - 模型名称：`llava`
    
@@ -59,7 +59,7 @@ TGAI 支持接入 Ollama 部署的大型语言模型推理和 embedding 能力�
 
 4. 使用 Ollama 模型
 
-   ![](../../.gitbook/assets/ollama-use-model.png)
+   <figure><img src="../../.gitbook/assets/ollama-use-model.png" alt=""><figcaption></figcaption></figure>
 
    进入需要配置的 App 提示词编排页面，选择 Ollama 供应商下的 `llava` 模型，配置模型参数后即可使用。
 

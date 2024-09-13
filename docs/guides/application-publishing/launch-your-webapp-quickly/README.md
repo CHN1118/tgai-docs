@@ -11,7 +11,7 @@
 
 在应用监测页中，你可以找到 WebApp 的管理卡片。打开访问开关后，你可以得到一个能够在互联网上公开分享的网址。
 
-<figure><img src="../../../../img/public-web-app.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../img//public-web-app.png" alt=""><figcaption></figcaption></figure>
 
 我们对以下两种应用类型均预置了漂亮的 WebApp 界面：
 
@@ -24,7 +24,8 @@
 
 点击 WebApp 卡片上的**设置**按钮，为 AI 站点配置一些选项，它们都会被最终用户所见：
 
-![](../../../../img/web-app-settings.png)
+<figure><img src="../../../img//web-app-settings.png" alt=""><figcaption></figcaption></figure>
+
 
 ::: tip
 

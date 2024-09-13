@@ -41,7 +41,7 @@ TGAI DSL 是由 TGAI.AI 所定义的 AI 应用工程文件标准，文件格式�
 
 如果你从社区或其它人那里获得了一个应用模版（DSL 文件），可以从工作室选择 「 导入DSL 文件 」。DSL 文件导入后将直接加载原应用的所有配置信息。
 
-<figure><img src="../../../img/import-dsl-file.png" alt=""><figcaption><p>导入 DSL 文件创建应用</p></figcaption></figure>
+<figure><img src="../../img/import-dsl-file.png" alt=""><figcaption><p>导入 DSL 文件创建应用</p></figcaption></figure>
 
 #### URL 导入
 
@@ -51,4 +51,4 @@ TGAI DSL 是由 TGAI.AI 所定义的 AI 应用工程文件标准，文件格式�
 https://example.com/your_dsl.yml
 ```
 
-<figure><img src="../../../img/import-dsl-from-url.jpeg" alt=""><figcaption><p>通过 URL 导入 DSL 文件</p></figcaption></figure>
+<figure><img src="../../img/import-dsl-from-url.jpeg" alt=""><figcaption><p>通过 URL 导入 DSL 文件</p></figcaption></figure>

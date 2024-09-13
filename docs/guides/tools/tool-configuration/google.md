@@ -12,7 +12,7 @@ Google 搜索工具能够帮助你在使用 LLM 应用的时候，获取联网�
 
 在 TGAI 导航页内轻点 `工具 > Google > 去授权` 填写 API Key。
 
-![](../../../../img/zh-tools-google.png)
+<figure><img src="../../../img/zh-tools-google.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 使用工具
 
