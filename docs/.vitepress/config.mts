@@ -18,7 +18,7 @@ export default defineConfigWithTheme(
       confetti: false,
       // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { component: 'SelectLanguage' },
+        // { component: 'SelectLanguage' },
       ],
 
       sidebar: [
