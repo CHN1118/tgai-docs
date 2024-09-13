@@ -7,6 +7,7 @@ import escookConfig from '@escook/vitepress-theme/config'
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme(
   {
+    ignoreDeadLinks:true,
     extends: escookConfig,
     title: "TGAI",
     description: "",
